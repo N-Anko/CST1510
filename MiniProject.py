@@ -23,21 +23,10 @@ difference = rows_loaded - rows_expected
 percent = (rows_loaded / rows_expected) * 100  
 
 
-# =================================================================== OUTPUT
-# 3. Print the report.
-#
-#    Threshold : print the three values you were given, inside a border
-#    Typical   : add difference and percent, 2 decimal places, right-aligned
-#    Excellent : difference always shows its sign, plus one line of your own
-#
-#    Useful:   f"{value:>10.2f}"    right-aligned, 2 decimal places
-#              f"{value:>+10.2f}"   the same, but always shows the sign
-
 print()
 print("=" * 34)
-print(f"  RECORD CHECK  -  {dataset_name}")
-print("=" * 34)
 print(f"  Dataset Name : {dataset_name:>10}")
+print("=" * 34)
 print(f"  Rows Loaded  : {rows_loaded:>10.2f}")
 print(f"  Rows Expected: {rows_expected:>10.2f}")
 print(f"  Difference   : {difference:>+10.2f}")
