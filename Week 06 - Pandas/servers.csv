@@ -1,0 +1,7 @@
+hostname,used,total,region
+srv-01,50,60,east
+srv-02,30,55,west
+srv-03,55,30,north
+srv-04,10,98,south
+srv-05,16,56,east
+srv-06,90,101,west
