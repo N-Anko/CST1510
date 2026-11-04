@@ -21,7 +21,6 @@ import pandas as pd
 
 df = pd.read_csv("LAB/records_test.csv")
 
-
 # ================================================================= PROCESS
 # 2. Add a "percent" column: (value / limit) * 100.
 #
